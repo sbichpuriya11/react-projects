@@ -1,0 +1,44 @@
+.hourly__item {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 12px 10px;
+  font-size: 15px;
+  line-height: auto;
+  display: inline-block;
+  width: 100%;
+  height: 185px;
+  margin-top: 12px;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+  font-family: "sf pro display";
+  letter-spacing: 1px;
+}
+
+.hourly__item__icon {
+  width: 50px;
+  position: relative;
+  margin-top: -10px;
+  left: -10px;
+}
+
+.hourly__main {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.hourly__description {
+  text-transform: capitalize;
+  font-size: 15px;
+  position: relative;
+  margin-top: -10px;
+  font-weight: 500;
+}
+
+.hourly__humidity {
+  margin-top: 20px;
+}
+
+.hourly__wind__speed {
+  margin-top: -14px;
+  font-size: 13px;
+}

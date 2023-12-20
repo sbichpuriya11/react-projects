@@ -1,0 +1,130 @@
+.span-col {
+  display: flex;
+  justify-content: space-between;
+}
+.day__details > h5 {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 300;
+}
+
+.col-border-topped {
+  display: inline-block;
+  margin-top: 10px;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.3);
+  height: 330px;
+  width: 500px;
+  margin-right: 45px;
+  font-family: "sf pro display";
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.col-border-topped > h5,
+.col-border-topped span > h5 {
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.col-border-topped .description {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -1px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Karla", sans-serif;
+}
+
+.day__timings {
+  display: flex;
+  margin-top: 17px;
+  align-items: center;
+  letter-spacing: 1px;
+}
+.day__timings {
+  font-size: 19px !important;
+  color: rgba(255, 255, 255, 0.7);
+}
+.day__timings > i {
+  margin-right: 16px;
+  font-size: 27px;
+}
+
+.custom-moon-icon-up::after,
+.custom-sun-icon-up::after {
+  content: "\f176";
+  margin-left: 4px;
+  font-family: "fontawesome";
+}
+
+.custom-moon-icon-down::after,
+.custom-sun-icon-down::after {
+  content: "\f175";
+  margin-left: 4px;
+  font-family: "fontawesome";
+}
+
+.flex-widget {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .flex-widget div {
+  display: flex;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  border-radius: 40px;
+  justify-content: space-around;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-inline-start-width: 40%;
+} */
+
+/* .percent {
+  position: relative;
+  width: 100px;
+  height: 100px;
+} */
+
+/* .percent > svg {
+  position: relative;
+  width: 100px;
+  height: 100px;
+} */
+
+/* .percent > svg > circle {
+  width: 100px;
+  height: 100px;
+  fill: transparent;
+  stroke-width: 5;
+  stroke: rgba(255, 255, 255, 0.4);
+  transform: translate(5px, 5px);
+  stroke-dasharray: 290;
+  stroke-dashoffset: 290;
+  stroke-linecap: round;
+} */
+/* 
+.percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: rgba(255, 255, 255, 0.4);
+}
+
+.percent svg circle:nth-child(2) {
+  stroke-dashoffset: calc(290 - (290 * 70) / 100);
+  stroke: rgba(0, 191, 255, 0.5);
+}
+
+.percent .number {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 14px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+} */

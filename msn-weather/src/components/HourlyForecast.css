@@ -1,0 +1,39 @@
+.slick-slide {
+  margin-top: 12px;
+  background-color: transparent;
+  height: 100%;
+}
+
+.slick-slide .active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hourly__forecast {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  margin: 100px 0;
+}
+
+.hourly__forecast__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hourly__forecast__buttons {
+  display: flex;
+}
+
+.hourly__forecast__buttons > button {
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid transparent;
+  outline-width: none;
+  outline: none;
+  padding: 7px;
+}
+
+.hourly__forecast__buttons .active {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}

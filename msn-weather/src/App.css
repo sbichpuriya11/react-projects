@@ -1,0 +1,12 @@
+#sticky-footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 40px !important;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  font-size: 19px;
+}
+
+#sticky-footer a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}

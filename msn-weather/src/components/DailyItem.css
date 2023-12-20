@@ -1,0 +1,47 @@
+.daily__item {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 2px solid transparent;
+  line-height: auto;
+  display: inline-block;
+  width: 140px;
+  height: 170px;
+  font-family: "sf pro display";
+}
+
+.daily__item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.activeDay {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.daily__item__icon {
+  width: 50px;
+  position: relative;
+  margin-top: -13px;
+}
+
+.daily__item__temp {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.daily__item__temp > .weather__main {
+  font-size: 25px;
+}
+
+.daily__item__temp > .weather__secondary {
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 12px;
+}
+
+.weather__daily__description {
+  position: relative;
+  margin-top: -10px;
+}

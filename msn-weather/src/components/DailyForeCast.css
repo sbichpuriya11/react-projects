@@ -1,0 +1,14 @@
+/* .container > h5 {
+  font-size: 22px;
+  color: pink;
+} */
+
+.daily__forecast {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+}
+.daily__forecast h5,
+.hourly__forecast h5 {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 300;
+}

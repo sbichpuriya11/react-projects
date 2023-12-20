@@ -1,0 +1,72 @@
+.card{
+    font-family: 'sf pro display'!important;
+    min-height: 50vh;
+    width: 300px;
+    background-color: transparent;
+}
+
+.card-img-top{
+    height:20vh!important;
+    object-fit:cover!important;
+}
+.card-author{
+    position:absolute;
+    left:15px;
+    top:15px;
+    font-size: 17px;
+    color:rgba(255,255,255,0.9);
+    font-family: "sf pro display";
+
+}
+.edit-button{
+    position:absolute;
+    top:15px;
+    color:rgba(255,255,255,0.9);
+    right:15px;
+    font-family: 200;
+}
+
+
+.posting-time{
+    position: absolute;
+    top:40px;
+    left:15px;
+    color:rgba(255,255,255,0.9);
+}
+
+
+.card-title{
+    font-size:18px;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 14px
+}
+
+.hash-tags{
+    position:absolute;
+    bottom:40px;
+    color:rgba(0,0,0,0.5);
+}
+
+.card .btn{
+    position: absolute;
+    bottom:5px;
+    padding:4px;
+    border-radius: 4px;
+    border:1px solid transparent;
+    color:navy!important;
+    box-shadow: none;
+}
+.card .btn:hover{
+    outline: none;
+    border:1px solid transparent!important
+}
+
+.card .like-button{
+    left:20px;
+}
+
+.card .delete-button{
+    right:20px;
+}

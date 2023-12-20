@@ -1,0 +1,4 @@
+STEPS to refactor application by using the more modern way by using react hooks and context
+STEP::::
+1)First of all convert the class component into functional component using useState and useEffect
+2) 

@@ -1,0 +1,26 @@
+.form{
+    font-family: 'sf pro display'!important;
+    border: 1px solid #eee;
+    padding:20px;
+    
+}
+
+textarea{
+    resize:none;
+}
+
+/* .form-label{
+    position:relative;
+    top:-30px;
+    left:20px;   
+    transition: 0.2s ease-in-out;
+}
+
+input:focus + .form-label{
+    position:relative;
+    top:-55px;
+    transition: 0.2s ease-in-out;
+    display:inline-block;
+    width:60px;
+    background-color:white;
+} */
